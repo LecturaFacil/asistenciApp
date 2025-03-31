@@ -1,0 +1,16 @@
+{
+    "name": "registro-entrada-salida",
+    "version": "1.0.0",
+    "description": "Sistema para registrar entradas y salidas de empleados con QR",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "qr-scanner": "^1.4.0"
+    },
+    "author": "Tu nombre",
+    "license": "MIT"
+  }
+  
