@@ -1,11 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AsistenciApp</title>
+    <title>Registro de Entrada y Salida</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+<h1>Registro de Entrada y Salida</h1>
+
+<div id="scanner-container">
+    <video id="qr-video" width="100%" height="auto"></video>
+</div>
+
+<button onclick="consultarRegistros()">Consultar Registros</button>
+
+<div id="logs"></div>
+
+<script src="script.js"></script>
 </body>
 </html>
